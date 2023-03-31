@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tweaks-mc",
+  "version": "${version}",
+  "name": "Tweaks",
+  "description": "A cool mod which adds some features and util things for the game.",
+  "authors": [
+    "mrlulu51"
+  ],
+  "contact": {
+    "repo": "https://github.com/mrlulu51/Tweaks-MC"
+  },
+  "license": "MIT",
+  "icon": "assets/tweaks-mc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.mrlulu51.tweaksmc.Tweaks"
+    ]
+  },
+  "mixins": [
+    "tweaks-mc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
