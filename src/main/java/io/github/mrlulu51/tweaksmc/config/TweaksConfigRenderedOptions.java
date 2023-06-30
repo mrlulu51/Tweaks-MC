@@ -12,7 +12,7 @@ public class TweaksConfigRenderedOptions {
     private static final RenderedConfigOptionBuilder BUILDER = new RenderedConfigOptionBuilder();
 
     static {
-        BUILDER.ofBoolean(TweaksConfigOptions.ENABLE_SHULKER_VIEWER_SHIFT_CLICK).setCommonTranslationKey(Helpers.translatableText("config", "shulker_view", Constants.MODID).getString()).build();
+        BUILDER.ofBoolean(TweaksConfigOptions.ENABLE_SHULKER_VIEWER_SHIFT_CLICK).setCommonTranslationKey("config.tweaks-mc.shulker_view").build();
     }
 
     public static List<RenderedConfigOption<?>> options() {

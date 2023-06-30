@@ -1,5 +1,9 @@
 {
   "screen.tweaks-mc.config.button": "Tweaks...",
+  "screen.tweaks-mc.config.title": "Tweaks",
+
+  "config.tweaks-mc.shulker_view": "View Shulker Content",
+  "config.tweaks-mc.shulker_view.desc": "Display shulker content in a mini-gui when the bounded key is pressed.",
 
   "category.tweaks-mc.keybinds": "Tweaks",
 

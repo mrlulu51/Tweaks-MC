@@ -30,7 +30,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // CatConfig MC
-    def catConfig = "io.github.lgatodu47:catconfig-mc:1.19.3-0.1.1"
+    def catConfig = "io.github.lgatodu47:catconfig-mc:${project.minecraft_version}-0.1.1"
     modImplementation catConfig
     include catConfig
     compileOnly 'io.github.lgatodu47:catconfig:0.2.4'

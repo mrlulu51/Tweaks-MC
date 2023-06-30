@@ -17,6 +17,7 @@ public class Tweaks implements ClientModInitializer {
 
     private static Tweaks instance;
     private CatConfig config;
+    private TKeybinds keybinds;
 
     @Override
     public void onInitializeClient() {
@@ -25,7 +26,7 @@ public class Tweaks implements ClientModInitializer {
 
         // Init Game Screens Changes
         new TScreenEvents().register();
-        new TKeybinds().register();
+        (keybinds = new TKeybinds()).register();
 
         // Registering instance
         instance = this;
@@ -33,6 +34,10 @@ public class Tweaks implements ClientModInitializer {
 
     public CatConfig getConfig() {
         return config;
+    }
+
+    public TKeybinds getKeybinds() {
+        return keybinds;
     }
 
     public static Tweaks getInstance() {
